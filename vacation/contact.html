@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Budget Vacations</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="description" content="Find the best deals on high-end vacation packages.">
+        <meta name="author" content="Budget Vacations"> 
+        <link rel="stylesheet" href="vacation.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oxygen:wght@300;400;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+    <!--Start of Page Header--> 
+        <header>
+            <div>
+                <h1>Budget Vacations</h1>
+                <p>The World, Open for <em>Everyone</em></p>
+            </div>
+        </header>
+    <!--Start of Page Navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Travel With Budget</a></li>
+                <li><a href="gallery.html">Destinations Gallery</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+                <li><a href="learn.html">Learn About Our Destinations</a></li>
+            </ul>
+        </nav>
+    <!--Start of Main Content-->
+        <main>
+            <h1>Contact Us</h1>
+            <h2>Phone Number</h2>
+                <p>385-484-1993</p>
+            <h2>Email</h2>
+                <p>BudgetVacations@budgetvacations.com</p>
+            <h2>Mailing Address</h2>
+                <p>2573 East Canyon Edge Drive, Draper UT 84020</p>
+            <h2>Office Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.489936195756!2d-111.82408452368567!3d40.486547871428506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87527e4551e326cd%3A0xc136032e3c9fa67!2s2573%20E%20Canyon%20Edge%20Dr%2C%20Draper%2C%20UT%2084020!5e0!3m2!1sen!2sus!4v1733790552204!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <h1>Request Additional Information</h1>
+            <form method="get" class="myForm" action="thanks.html">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <label>First Name*<input type=text name="fname" required></label>
+                    <label>Last Name*<input type=text name="lname" required></label>
+                    <label>Phone Number*<input type=tel name="phone" required placeholder="801-555-6666"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Are You</legend>
+                    <label><input type="radio" name="user type" value="on a trip">On A Vacation</label>
+                    <label><input type="radio" name="user type" value="planning a trip">Planning A Vacation</label>
+                    <label><input type="radio" name="user type" value="returned">Returned From A Vacation</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What Do You Need Information About?</legend>
+                    <label><input type="checkbox" name="information requested" value="selected">Trip Cancellation</label>
+                    <label><input type="checkbox" name="information requested" value="selected">Vacation Insurance</label>
+                    <label><input type="checkbox" name="information requested" value="selected">Pricing</label>
+                    <label>Something Else <textarea name="comments"></textarea></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Is This Request Urgent?</legend>
+                    <select name="urgentrequest">
+                        <option value="none">Please Select</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="notsure">I'm Not Sure</option>
+                    </select>
+                </fieldset>
+                <input type="submit" value="Submit Information Request">
+            </form>
+        </main>
+    <!--Start of Page Footer-->
+        <footer>
+            <p>&copy; 2024 &bull; Budget Vacations &bull; <a href="mailto:BudgetVacations@budgetvacations.com">Email Us</a> &bull; <a href="tel:3854841993">Call Us</a>
+            </p>
+            <p>Physical Address:</p> <address>2573 East Canyon Edge Drive<br>Draper, UT 84020</address>
+        </footer>
+    </body>
+  </html>
